@@ -1457,7 +1457,7 @@ enum Data {
 }
 
 let x = MyStruct {
-  data: Data::Foo(123),
+  data: Data::Foo(123, 456),
   some_tuple: (10, 20),
 };
 
